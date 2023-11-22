@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/0fc7c92516.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;1,200;1,400&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Lista de contatos</title>
+</head>
+<body>
+
+  <header>
+    <i  class="fa-solid fa-address-book"></i>
+    <h1>Lista de contatos</h1>
+  </header>
+
+  <form>
+
+    <div>
+      <i class="fa-solid fa-user"></i>
+      <input required type="text" name="nome" id="nome" placeholder="Nome">
+
+      <i class="fa-solid fa-phone"></i>
+      <input required type="number" name="telefone" id="telefone" placeholder="Telefone">
+
+      <input required type="radio" name="sexo" value="masculino" id="masc">Masculino
+      <input required type="radio" name="sexo"  value="feminino" id="femi">Feminino
+    </div>
+      
+      <button type="submit">Salvar</button><br/>
+  </form>
+
+  <table>
+    <thead>
+      <td></td>
+      <th>Nome</th>
+      <th>Telefone</th>
+    </thead>
+
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #7b3758;
+}
+
+body {
+  background-color: #f3eae8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+body img {
+  width: 2.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+header i {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+form i {
+  font-size: 1.3rem;
+}
+
+form input[type="text"],
+form input[type="number"]{
+  margin-right: 1.5rem;
+}
+
+form input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  height: 2rem;
+  outline: none;
+  padding-left: 0.5rem;
+}
+
+form button {
+  width: 60%;
+  margin: 0 auto;
+  background: #4fe1a0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #07ca9d;
+  transition: all 0.3s;
+}
+
+form input:focus {
+  background: #f2f2f2;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 2rem;
+  width: 25%;
+}
+
+th, td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
